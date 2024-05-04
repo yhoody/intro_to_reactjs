@@ -1,8 +1,15 @@
-import React from 'react'
+import Navbar from './components/Navbar'
+import './App.css'
+import Section from './components/Section'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <div>Welcome to React Magic</div>
+    <div>
+      <Navbar />
+      <Section />
+      <Footer />
+    </div>
   )
 }
 
